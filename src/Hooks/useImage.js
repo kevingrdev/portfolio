@@ -12,7 +12,7 @@ const useImage = ({ urlImg }) => {
             setImg(imageObjectURL);
             console.log(`This is img ${imageObjectURL}`)
         })
-    }, [])
+    }, [urlImg])
 
     return {
         img:img

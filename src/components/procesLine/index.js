@@ -21,15 +21,15 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function CustomizedTimeline({title}) {
+export default function CustomizedTimeline({ title }) {
     const classes = useStyles();
 
     return (
-        <div style={{ margin: '30px auto',maxWidth:'1440px', minHeight:'500px'}}>
+        <div style={{ margin: '30px auto', maxWidth: '1440px', minHeight: '500px' }}>
             <Typography variant="h4" display='block' color='Secondary' gutterBottom>
                 {title}
             </Typography>
-            <div style={{marginTop:'80px'}}/>
+            <div style={{ marginTop: '80px' }} />
 
             <Timeline align="alternate">
                 <TimelineItem>
@@ -46,7 +46,7 @@ export default function CustomizedTimeline({title}) {
                             <Typography variant="h6" component="h1">
                                 Contactame
                             </Typography>
-                            <Typography>Por: <a href='https://api.whatsapp.com/send?phone=522463620177&text=Qu%C3%A9%20tal%20me%20interesa%20tu%20trabajo%20cu%C3%A9ntame%20m%C3%A1s...%20'>whatsApp</a>, <a href='mailto:kevingutierrez6595@gmail.com'>email</a>,  <a href='https://www.linkedin.com/in/kevin-gutierrez-3679181b5/'>linkedin</a></Typography>
+                            <Typography>Por: <a href='mailto:kevingutierrez6595@gmail.com' rel="noreferrer" target="_blank">Email</a> y <a href='https://www.linkedin.com/in/kevin-gutierrez-3679181b5/' rel="noreferrer" target="_blank">Linkedin</a></Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
@@ -64,7 +64,7 @@ export default function CustomizedTimeline({title}) {
                             <Typography variant="h6" component="h1">
                                 Vamos al codigo
                             </Typography>
-                            <Typography>Trabajaremos en conjunto hasta encontrar la mejor solución para tus clientes</Typography>
+                            <Typography>Trabajaremos en conjunto hasta encontrar la mejor solución</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
@@ -78,8 +78,7 @@ export default function CustomizedTimeline({title}) {
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
                                 Listo
-                           </Typography>
-                            <Typography>Recomiendame!</Typography>
+                            </Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
