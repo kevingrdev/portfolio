@@ -1,0 +1,18 @@
+.jobs {
+    display: block;
+    min-height: 700px;
+    margin:auto;
+    max-width: 1440px;
+    width: 95%;
+    align-items: center;
+    margin-bottom: 100px;
+}
+  
+.list-works{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    grid-gap:40px;  
+}

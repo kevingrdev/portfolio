@@ -1,0 +1,119 @@
+.item-proyect {
+    width: 280px;
+    height: 400px;
+    background: #f0fff785;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px 0px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 2px rgb(0 0 3 / 5%);
+}
+
+.item-proyect .content {
+    background: #f0fff785;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-top: solid 4px #c1d6ffa1;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 97%;
+}
+.item-proyect p {
+    color: lightslategrey;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+
+.item-proyect img {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 202px;
+    /* background: #222A4C; */
+    padding: 10px;
+}
+
+.item-proyect .paragraphs {
+    height: 80%;
+}
+
+.item-proyect a {
+    align-self: flex-start;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.a {
+    align-self: flex-start;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+    /* display: none; */
+}
+
+/*dark mode */
+
+.item-proyect--dark{
+    width: 280px;
+    height: 400px;
+    background: linear-gradient(45deg,black, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px 0px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px -3px rgb(255 255 255 / 52%);
+}
+
+.item-proyect--dark .content--dark {
+    background: linear-gradient(45deg,black, transparent);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-top: solid 4px darkslategrey;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 97%;
+}
+
+.item-proyect--dark img {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 202px;
+    /* background: #222A4C; */
+    padding: 10px;
+}
+
+.item-proyect--dark p {
+    color: #00d45ed9;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 450;
+    font-family: "Roboto";
+}
+.item-proyect--dark .paragraphs {
+    height: 80%;
+}
+.item-proyect--dark a {
+    align-self: flex-start;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+}

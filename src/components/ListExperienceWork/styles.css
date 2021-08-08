@@ -1,0 +1,38 @@
+.list-experiences{
+    width:100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    margin-bottom: 100px;
+}   
+
+.item-experience{
+    background: linear-gradient(533deg,#f50057c2, #01162c75);
+    display: flex;
+    padding: 20px;
+    cursor: default;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    max-width: 340px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.item-experience img{
+    opacity: 2;
+}
+.item-experience .paragraph{
+    color: cyan;
+}
+.item-experience .title{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}

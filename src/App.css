@@ -136,25 +136,23 @@ table {
   display: flex;
   align-items: center;
 }
-.background-dark{
-	background-color: #090008; 
+.background-dark {
+  background-color: #01162C;
 }
-.background-normal{
-	background-color: white; 
+.background-normal {
+  background-color: white;
 }
 .title-dark {
-  color: white;
+  color: whitesmoke;
 }
 .title-normal {
-	color: black;
+  color: black;
 }
 .text-dark {
-	color: whitesmoke;
-	/* color: #b8b8b8; */
-
+  color: #c5c2c2fa;
 }
 .text-normal {
-	color: rgb(51, 51, 51);
+  color: rgb(19, 11, 11);
 }
 
 .portfolio__photo {
@@ -164,8 +162,9 @@ table {
 .ml-2 {
   margin-left: 2vw;
 }
-.jobs {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+.mt-15 {
+  margin-top: 15px;
+}
+.mb-15 {
+  margin-bottom: 15px;
 }

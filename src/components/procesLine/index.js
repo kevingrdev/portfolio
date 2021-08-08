@@ -25,10 +25,12 @@ export default function CustomizedTimeline({title}) {
     const classes = useStyles();
 
     return (
-        <div style={{ margin: '30px 0vw' }}>
-            <Typography variant="h4" display='block' color='primary' gutterBottom>
+        <div style={{ margin: '30px auto',maxWidth:'1440px', minHeight:'500px'}}>
+            <Typography variant="h4" display='block' color='Secondary' gutterBottom>
                 {title}
             </Typography>
+            <div style={{marginTop:'80px'}}/>
+
             <Timeline align="alternate">
                 <TimelineItem>
                     <TimelineOppositeContent>

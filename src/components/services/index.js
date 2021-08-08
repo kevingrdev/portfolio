@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
-import Card from '../cardService';
+import Card from '../CardService';
 
 
 const Index = () => {

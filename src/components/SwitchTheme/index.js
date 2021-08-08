@@ -1,29 +1,13 @@
-import React, { useContext } from 'react';
-import ThemeContext from "../../context/Theme";
-import IconButton from '@material-ui/core/IconButton';
-
 import useTheme from '../../Hooks/useTheme';
 
+import IconButton from '@material-ui/core/IconButton';
+
 const SwitchTheme = () => {
-    const {LOGO} = useTheme();
-    const { themeDark, setTheme } = useContext(ThemeContext)
-   
-    const HandleClick = () => {
-        setTheme(!themeDark);
-        console.log(themeDark);
-        if (themeDark) {
-            document.body.style = "background: white;";
-            window.localStorage.setItem('theme','normal')
-        } else {
-            document.body.style = "background: #090008;";
-            window.localStorage.setItem('theme','dark')
-        }
-        console.log(window.localStorage.getItem('theme'));
-    };
+    const { LOGO, onChangeModeDark } = useTheme();
 
     return (
-        <div style={{ float:'right' }}>
-            <IconButton onClick={HandleClick} >
+        <div style={{ display: 'flex',margin:'auto', maxWidth: '1440px', justifyContent: 'flex-end', paddingTop: '10px' }}>
+            <IconButton onClick={onChangeModeDark} >
                 {LOGO}
             </IconButton>
         </div>

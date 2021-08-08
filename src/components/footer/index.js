@@ -24,14 +24,15 @@ const Index = () => {
             >
                 <IconButton
                     // onClick={toLinkedIn}
+                    rel="noreferrer" target="_blank"
                     href='https://www.instagram.com/kevvingr/'
                 >
                     <InstagramIcon
-
                         className={COLORTEXT}
                     />
                 </IconButton>
                 <IconButton
+                    rel="noreferrer" target="_blank"
                     href='https://github.com/keivnGutierrez?tab=followers'
                 >
                     <GitHubIcon
@@ -40,11 +41,12 @@ const Index = () => {
                     />
                 </IconButton>
                 <IconButton
+                    rel="noreferrer" target="_blank"
                     href='https://www.linkedin.com/in/kevin-gutierrez-3679181b5/'
                 >
-                    <LinkedInIcon 
+                    <LinkedInIcon
                         className={COLORTEXT}
-                    
+
                     />
                 </IconButton>
             </Grid>

@@ -1,29 +1,28 @@
 import 'fontsource-roboto';
-import ButtonAppBar from './components/nav';
-import Footer from './components/footer';
-import FeaturedWorks from './components/featuredWorks';
-// import Header from './components/Header';
-import Galery from './pages/Galery'
+import Footer from './components/Footer';
+import ProjectsList from './components/ProjectsList/Index';
+
 import SwitchTheme from './components/SwitchTheme';
 import { ThemeContextProvider } from './context/Theme';
-import ProcesLine from './components/procesLine';
-
-import './app.css';
+import ProcesLine from './components/ProcesLine';
 import HeaderApp from './components/HeaderApp';
+
+import ListExperience from './components/ListExperienceWork';
+import './App.css';
+import './Reset.css';
 
 function App() {
   return (
     <ThemeContextProvider>
-      <ButtonAppBar />
       <main className='layout'>
-        <SwitchTheme />
+        <SwitchTheme/>
         <HeaderApp
           title='Hola, soy Kevin, programador.'
-          description='Tengo dos años de experiencia en el mundo de la programación, comence desarrollando en PHP, actualmente mi especialidad es React.js, pero tengo experiencia en el mundo movil y backend. ¡Me gusta aprender tecnologías nuevas!'
-          btnText='Colaborar conmigo..'
+          description='Me especializo en el desarrollo de web con React Js aunque tengo experiencia en Android y Node Js.'
+          btnText='Colaborar conmigo...'
         />
-        <FeaturedWorks />
-        <Galery title='Galería de trabajos' />
+        <ListExperience/>
+        <ProjectsList />
         <ProcesLine title='¿Trabajamos juntos?' />
       </main>
       <Footer />
