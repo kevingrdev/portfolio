@@ -1,15 +1,16 @@
-import "fontsource-roboto";
-import Footer from "./components/Footer.jsx";
+import 'fontsource-roboto'
+import Footer from './components/Footer'
 
-import ListProjects from "./components/ListProjects.jsx";
-import SwitchTheme from "./components/SwitchTheme.jsx";
-import Header from "./components/Header.jsx";
-import ListCurses from "./components/ListCurses";
+import ListProjects from './components/ListProjects'
+import SwitchTheme from './components/SwitchTheme'
+import Header from './components/Header'
+import ListCurses from './components/ListCurses'
+import AdditionalInfo from './components/AdditionalInfo'
 
-import { ThemeContextProvider } from "./context/Theme";
+import { ThemeContextProvider } from './context/Theme'
 
-import "./App.css";
-import "./Reset.css";
+import './App.css'
+import './Reset.css'
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
         />
         <ListProjects />
         <ListCurses />
+        <AdditionalInfo/>
       </main>
       <Footer />
     </ThemeContextProvider>
-  );
+  )
 }
 
-export default App;
+export default App

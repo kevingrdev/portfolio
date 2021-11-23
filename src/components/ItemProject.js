@@ -1,26 +1,26 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 
-import Button from "./Button";
+import Button from './Button'
 
-import useTheme from "../hooks/useTheme";
+import useTheme from '../hooks/useTheme'
 
-import "../css/itemProject.css";
+import '../css/itemProject.css'
 
 const ItemProject = ({ href, text, img }) => {
-  const { STATUS_DARK } = useTheme();
+  const { STATUS_DARK } = useTheme()
 
   const classForContent = `content ${
-    STATUS_DARK ? "content--dark" : "content--white"
-  }`;
+    STATUS_DARK ? 'content--dark' : 'content--white'
+  }`
   const classForItem = `item-proyect ${
-    STATUS_DARK ? "item-proyect--dark" : "item-proyect--white"
-  }`;
+    STATUS_DARK ? 'item-proyect--dark' : 'item-proyect--white'
+  }`
 
   return (
     <>
       <div className={classForItem}>
-        <div style={{ margin: "auto" }}>
-          <img src={img} alt={text.one}  />
+        <div style={{ margin: 'auto' }}>
+          <img className="fade-in-image" src={img} alt={text.one} />
         </div>
         <div className={classForContent}>
           <div className="paragraphs">
@@ -30,10 +30,10 @@ const ItemProject = ({ href, text, img }) => {
           <a href={href} rel="noreferrer" target="_blank">
             <Button
               text={`Ver 👀`}
-              textColor={"#fff"}
+              textColor={'#fff'}
               colors={{
-                primary: "#f50057",
-                secondary: "#FF7272",
+                primary: '#f50057',
+                secondary: '#FF7272',
               }}
               height="40px"
               width="240px"
@@ -42,22 +42,22 @@ const ItemProject = ({ href, text, img }) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
 ItemProject.defaultProps = {
-  href: "",
+  href: '',
   text: {
-    one: "",
-    two: "",
+    one: '',
+    two: '',
   },
-  img: "",
-};
+  img: '',
+}
 
 ItemProject.propTypes = {
   href: PropTypes.string.isRequired,
   text: PropTypes.objectOf(PropTypes.string),
   img: PropTypes.string.isRequired,
-};
+}
 
-export default ItemProject;
+export default ItemProject
