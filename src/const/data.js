@@ -13,7 +13,7 @@ export const PORFOLIO_LIST = [
       one: "Aplicaión android Ztiluz",
       two: "Tecnologías:  koltin",
     },
-    img: "https://tlaxdevs.com/_next/image?url=%2Fztiluzapp.svg&w=256&q=75",
+    img: "/AppZtiluz.svg",
   },
   {
     href: "https://ztiluz.com",
@@ -21,7 +21,7 @@ export const PORFOLIO_LIST = [
       one: "Pagina web para la ztiluz",
       two: "Tecnologías:  ReactJS, Redux, firebase y nodeJs",
     },
-    img: "https://tlaxdevs.com/_next/image?url=%2Fztiluzweb.svg&w=256&q=75",
+    img: "/ztiluzweb.svg",
   },
   {
     href: "https://tlaxdevs.com",
@@ -29,7 +29,7 @@ export const PORFOLIO_LIST = [
       one: "Pagina web de Tlaxdevs",
       two: "Tecnologías:  ReactJS",
     },
-    img: "https://tlaxdevs.com/_next/image?url=%2Ftlaxdev.svg&w=256&q=75",
+    img: "TlaxDev.svg",
   },
 ];
 
