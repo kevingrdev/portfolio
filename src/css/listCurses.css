@@ -1,5 +1,4 @@
 .curses {
-  /* background: red; */
   min-height: 400px;
   margin: auto;
 }
@@ -22,15 +21,11 @@
 }
 
 .diploma {
-  opacity: 0.9;
-  width: 280px;
-  height: auto;
-  min-height: 220px;
+  position: relative;
+  width: 95%;
+  max-width: 300px;
   margin: auto;
-  box-sizing: border-box;
-  object-fit: cover;
-  transition: 1s;
-  border: none;
+  object-fit: fill;
 }
 
 .diploma:active {
