@@ -8,7 +8,7 @@ import ListCurses from './components/ListCurses'
 import AdditionalInfo from './components/AdditionalInfo'
 
 import { ThemeContextProvider } from './context/Theme'
-
+import { analytics } from './config/firebase'
 import './App.css'
 import './Reset.css'
 
@@ -23,7 +23,7 @@ function App() {
         />
         <ListProjects />
         <ListCurses />
-        <AdditionalInfo/>
+        <AdditionalInfo />
       </main>
       <Footer />
     </ThemeContextProvider>

@@ -9,6 +9,7 @@
         "@material-ui/styles": "^4.11.4",
         "@mui/icons-material": "^5.1.0",
         "@trendyol-js/react-carousel": "^2.0.0",
+        "firebase": "^9.6.2",
         "fontsource-roboto": "^4.0.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
