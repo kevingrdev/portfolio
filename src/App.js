@@ -1,32 +1,27 @@
-import 'fontsource-roboto'
-import Footer from './components/Footer'
-
-import ListProjects from './components/ListProjects'
-import SwitchTheme from './components/SwitchTheme'
-import Header from './components/Header'
-import ListCurses from './components/ListCurses'
-import AdditionalInfo from './components/AdditionalInfo'
-
-import { ThemeContextProvider } from './context/Theme'
-import { analytics } from './config/firebase'
-import './App.css'
 import './Reset.css'
+import './App.css'
+import { Presentation } from './components/Presentation'
+import { TextSlide } from './components/TextSlide'
+import { Portfolio } from './components/Portfolio'
+import { Curses } from './components/Curses'
+import { Footer } from './components/Footer'
+import { Nav } from './components/Nav'
 
 function App() {
   return (
-    <ThemeContextProvider>
-      <main className="layout">
-        <SwitchTheme />
-        <Header
-          title="Front end &#128187;"
-          description="Desarrollo interfaces web para miles de usuarios ya que participo creación de e-comers para grandes empresas. Soy un apasionado por las tecnologías particularmente por React."
-        />
-        <ListProjects />
-        <ListCurses />
-        <AdditionalInfo />
+    <div className="layout">
+      <header className="header">
+        <Nav />
+        <TextSlide />
+        <h2>mi nombre es Kevin</h2>
+      </header>
+      <main>
+        <Presentation />
+        <Portfolio />
+        <Curses />
       </main>
       <Footer />
-    </ThemeContextProvider>
+    </div>
   )
 }
 
