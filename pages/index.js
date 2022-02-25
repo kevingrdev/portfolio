@@ -1,4 +1,3 @@
-import { Head } from 'next/head'
 import { Presentation } from 'components/Presentation'
 import { TextSlide } from 'components/TextSlide'
 import { Portfolio } from 'components/Portfolio'

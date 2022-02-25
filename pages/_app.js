@@ -15,13 +15,13 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Soy kevin Gutiérrez y esté es mi portafolio de trabajos destacados."
         />
-        {/* <meta name="twitter:title" content="KEVIN - DEVELOPER" />
+        <meta name="twitter:title" content="KEVIN - DEVELOPER" />
         <meta name="twitter:card" content="summary" />
         <meta property="og:locale" content="es" />
         <meta property="og:url" content="https://kevingr.dev/" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="KEVIN - DEVELOPER" />
-        <meta property="og:title" content="KEVIN - DEVELOPER" /> */}
+        <meta property="og:title" content="KEVIN - DEVELOPER" />
 
         <meta property="og:image" content="web.png" />
         <meta name="author" content="Kevin Guti├®rrez" />
