@@ -11,11 +11,11 @@ export const Presentation = () => {
         <div className="max-with-800">
           <h5 className="no-select">
             Actualmente trabajo en el Frontend para Zebrands desarrollando el
-            e-comers de Luuna, nooz y mappa tiendas en línea con millones de
+            e-comers de Luuna, nooz y mappa, tiendas en línea con millones de
             usuarios.
           </h5>
           <p className="text-seccond no-select">
-            Lideré el equipo desarrollo de Frontend para lanzar la version de V9 de
+            Lideré el equipo de desarrollo Frontend para lanzar la version de V9 de
             ClaroShop Colombia.
           </p>
           <p className="text-seccond no-select">
