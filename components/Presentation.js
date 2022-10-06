@@ -24,7 +24,7 @@ export const Presentation = () => {
             modernos. (React y Vue).
           </p>
         </div>
-        <img src="https://kevingr.dev/kevin.jpg" className="fade-in-image" />
+        <img src="/iamKevin.jpg" className="fade-in-image" />
       </section>
     </section>
   )

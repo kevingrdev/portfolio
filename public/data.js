@@ -1,4 +1,20 @@
 export const PROJECTS = [
+  // https://www.tuprontomx.com/
+  //
+  {
+    title: 'ClaroShop',
+    type: 'WEB',
+    tecnologies: ['Node', 'React', 'Nextjs'],
+    url: 'https://tiendaonline.claro.com.co/',
+    img: '/ClaroShop.png',
+  },
+  {
+    title: 'Pronto',
+    type: 'WEB',
+    tecnologies: ['Node', 'React'],
+    url: 'https://www.tuprontomx.com/',
+    img: '/pronto.png',
+  },
   {
     title: 'MiniViajes',
     type: 'WEB',
