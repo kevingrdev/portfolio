@@ -2,7 +2,7 @@ export const Footer = (_) => {
   return (
     <footer className="footer">
       <h5 className="frase">
-        "La moyoría de personas no quiere nadar
+        "La mayoría de personas no quiere nadar
         <span className="fade-in-text text-seccond">
           {' '}
           hasta que no sabe hacerlo"

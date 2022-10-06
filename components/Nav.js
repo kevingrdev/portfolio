@@ -26,7 +26,7 @@ export const Nav = () => {
           onMouseOut={handleOut}
           onMouseOver={handleHover}
         >
-          <a href="mailto:kevinngr1@gmail.com">Enviame un email</a>
+          <a href="mailto:kevinngr1@gmail.com">Envíame un email</a>
         </li>
       </ul>
     </nav>
